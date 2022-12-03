@@ -1,0 +1,13 @@
+<script>
+  function findNextSquare(sq) {
+    if (Math.sqrt(sq) % 1 === 0) {
+      return ( (Math.sqrt(sq) + 1) ** 2 );
+    } else
+    return -1;
+  }
+</script>
+<!-- Ищет следующий us от числа идеальный квадрат, а если число не является
+идеальным квадратом, возвращает -1 -->
+<!-- function findNextSquare(sq) {
+  return Math.sqrt(sq)%1? -1 : Math.pow(Math.sqrt(sq)+1,2);
+} -->
